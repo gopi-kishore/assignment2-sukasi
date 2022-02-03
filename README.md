@@ -38,3 +38,11 @@ Cricket         | India     | $ 100
 Football        | US        | $ 50
 Basketball      | Newyork   | $ 25
 
+---
+
+## Pithy Quotes
+> "A dream is not that which you see while sleeping, it is something that does not let you sleep."
+> - APJ ABDUL KALAM
+
+> "Excellence happens not by accident. It is a process."
+> - Sir C.V. RAMAN
