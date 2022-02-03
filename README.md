@@ -29,3 +29,12 @@ It is very famous in **India**. It is also known as **Hyderabadi dum**. It is or
     - Sandwich
 
 **[Document](ABOUTME.md)
+
+---
+## FOOD RECOMMENDATIONS
+Sport/Activity  | Location  |  Price 
+---             | ---       | ---
+Cricket         | India     | $ 100
+Football        | US        | $ 50
+Basketball      | Newyork   | $ 25
+
