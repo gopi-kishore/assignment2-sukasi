@@ -46,3 +46,28 @@ Basketball      | Newyork   | $ 25
 
 > "Excellence happens not by accident. It is a process."
 > - Sir C.V. RAMAN
+
+---
+## CODE FENCING
+Given two non-negative integers  and , we have to find their GCD (greatest common divisor), i.e. the largest number which is a divisor of both  and . It's commonly denoted by . Mathematically it is defined as:
+
+(here the symbol "" denotes divisibility, i.e. "" means " divides ")
+
+When one of the numbers is zero, while the other is non-zero, their greatest common divisor, by definition, is the second number. When both numbers are zero, their greatest common divisor is undefined (it can be any arbitrarily large number), but we can define it to be zero. Which gives us a simple rule: if one of the numbers is zero, the greatest common divisor is the other number.
+
+The Euclidean algorithm, discussed below, allows to find the greatest common divisor of two numbers  and  in .
+
+The algorithm was first described in Euclid's "Elements" (circa 300 BC), but it is possible that the algorithm has even earlier origins.
+
+(https://cp-algorithms.com/index.html)
+
+```
+int gcd (int a, int b) {
+    while (b) {
+        a %= b;
+        swap(a, b);
+    }
+    return a;
+}
+```
+[Link](https://cp-algorithms.com/algebra/euclid-algorithm.html)
